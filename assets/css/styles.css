@@ -17,7 +17,7 @@ html{
 /* General containers styles */
 body{
     overflow-x: hidden;
-    background: #FFFFFF;
+    background: #080707;
     margin: 0 auto;
 }
 html {
@@ -44,4 +44,47 @@ html {
 }
 .space-around {
     justify-content: space-around;
+}
+.center {
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+
+/* -------------- Section1 + header styles written here -------------- */
+.section1{
+    align-items: center;
+    height: 1080px;
+    background-image: url(../images/main-bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding: 66px;
+}
+header nav {
+    width: 100%;
+    gap: 200px;
+}
+header nav ul{
+    gap: 64px;
+}
+.section1 .heading{
+    margin-top: 243px;
+    gap: 64px;
+}
+.section1 .heading .text-div{
+    gap: 24px;
+}
+.section1 .heading img{
+    height: 98px;
+    cursor: pointer;
+}
+.section1 .heading .lower-div{
+    gap: 8px;
+    margin-top: 130px;
+}
+.section1 .heading a .chevronDown{
+    height: 32px;
 }

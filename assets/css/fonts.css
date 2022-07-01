@@ -13,6 +13,9 @@
 }
 
 /* Fonts classes written here */
+.keeptogether{
+    white-space: nowrap;
+}
 .text-center{
     text-align: center;
 }
@@ -247,4 +250,12 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+/* Additional fonts according html */
+h1{
+    width: 675px;
+}
+.section1 .heading p{
+    width: 674px;
 }
