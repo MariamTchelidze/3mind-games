@@ -12,8 +12,6 @@ html{
     text-decoration: none;
     box-sizing: border-box;
 }
-
-
 /* General containers styles */
 body{
     overflow-x: hidden;
@@ -55,7 +53,6 @@ html {
 /* -------------- Section1 + header styles written here -------------- */
 .section1{
     align-items: center;
-    height: 1080px;
     background-image: url(../images/main-bg-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,21 +67,82 @@ header nav {
 header nav ul{
     gap: 64px;
 }
-.section1 .heading{
+.section1 .content-wrapper1 {
+    padding-bottom: 120px;
+}
+.section1 .content-wrapper1 .heading{
     margin-top: 243px;
     gap: 64px;
 }
-.section1 .heading .text-div{
+.section1 .content-wrapper1 .heading .text-div{
     gap: 24px;
 }
 .section1 .heading img{
     height: 98px;
     cursor: pointer;
 }
-.section1 .heading .lower-div{
+.section1 .content-wrapper1 .heading .lower-div{
     gap: 8px;
     margin-top: 130px;
+    margin-bottom: 120px;
 }
 .section1 .heading a .chevronDown{
     height: 32px;
 }
+/* ----------------- SECTION2 STYLES WRITTEN HERE ----------------- */
+.section2{
+    padding: 64px;
+    align-items: center;
+}
+.section2 .content-wrapper2{
+    align-items: center;
+}
+.section2 .left{
+    align-items: flex-start;
+    gap: 32px;
+}
+.section2 .left p{
+    text-align: left;
+    width: 590px;
+}
+.section2 .left .mainBtn{
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 120px;
+    cursor: pointer;
+    background: #FFFBFA;
+    box-shadow: 4px 4px 0px #E23826;
+}
+/* .section2 .right{
+    background-image: url(../images/img1\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+} */
+
+/* ------------------- Section 3 CSS CODE WRITTEN HERE ------------------- */
+.section3 .content-wrapper3 {
+    gap: 120px;
+}
+.section3 .content-wrapper3 .bullet-div{
+    gap: 24px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet .bullet-heading{
+     gap: 16px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet {
+    background: rgba(255, 251, 250, 0.04);
+    padding: 32px 48px 145px 48px;
+    gap: 64px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet ul {
+    gap: 32px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet ul li{
+    align-items: center;
+    gap: 24px;
+}
+
+
+/*  --------------------------- SECTION 4: CSS CODE WRITTEN HERE --------------------------- */

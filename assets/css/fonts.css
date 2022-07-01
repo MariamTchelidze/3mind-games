@@ -259,3 +259,33 @@ h1{
 .section1 .heading p{
     width: 674px;
 }
+
+
+/* --------------------- section3 --------------------- */
+.line-height26{
+    line-height: 26px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet ul:nth-child(2){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .bullet ul:nth-child(3){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .second-bullet ul:nth-child(1){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .second-bullet ul:nth-child(2){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .second-bullet ul:nth-child(3){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .third-bullet ul:nth-child(1){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .third-bullet ul:nth-child(2){
+    width: 400px;
+}
+.section3 .content-wrapper3 .bullet-div .third-bullet .h4{
+    width: 436px;
+}

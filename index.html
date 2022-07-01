@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+    <!-- Header + section1 -->
     <section class="section1 flex column" id="sect1">
         <header class="flex space-between">
             <nav class="flex center">
                 <ul class="flex space-between">
-                    <li><a class="DmSans16" href="#">Home</a></li>
+                    <li><a class="DmSans16" href="index.html">Home</a></li>
                     <li><a class="DmSans16" href="#">Games</a></li>
                 </ul>
                 <li><a class="DmSans16" href="#"><img src="assets/images/LOGO.svg" alt="Logo"></a></li>
@@ -25,21 +26,83 @@
             </nav>
         </header>
         <!-- heading div -->
-        <div class="heading flex column">
-            <div class="flex column center text-div">
-                <h1 class="Orbitron48">The Ultimate Gaming Experience!</h1>
-                <p class="Orbitron18">We create passionate experience and entertainment, Rich emotionally engaging games with very deep stories and unforgettable characters</p>
-                <img src="assets/images/play-button.svg" alt="Play video">
-            </div>
-            <div class="flex column lower-div">
-                <h3 class="Orbitron24 text-center">Present Project</h3>
-                <a href="#" class="text-center"><img class="chevronDown" src="assets/images/Chevron Down.svg" alt="Scroll Down"></a>
+        <div class="content-wrapper1">
+            <div class="heading flex column">
+                <div class="flex column center text-div">
+                    <h1 class="Orbitron48">The Ultimate Gaming Experience!</h1>
+                    <p class="Orbitron18">We create passionate experience and entertainment, Rich emotionally engaging games with very deep stories and unforgettable characters</p>
+                    <img src="assets/images/play-button.svg" alt="Play video">
+                </div>
+                <div class="flex column lower-div">
+                    <h3 class="Orbitron24 text-center">Present Project</h3>
+                    <a href="#sect2" class="text-center"><img class="chevronDown" src="assets/images/Chevron Down.svg" alt="Scroll Down"></a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Section2 -->
+    <section class="section2 outer-container" id="sect2">
+        <div class="content-wrapper2 container flex space-between">
+            <div class="left flex column">
+                <h2 class="Orbitron48-weight900">The Protagonist: EX-1</h2>
+                <h4 class="Orbitron24-Solidgrey">Turn-Based Tactical RPG</h4>
+                <p class="Orbitron18">Experience a gripping, original story, written by our narrative designer who worked on the Star Wars, Warhammer 40,000 and Mass Effect franchises</p>
+                <button class="center flex mainBtn Orbitron22">Visit <img src="assets/images/button-arrow.svg" alt="button-arrow"></button>
+            </div>
+            <div class="right">
+                <img src="assets/images/bg-img.svg" alt="Bg image">
+            </div>
+        </div>
+    </section>
 
-
+<!-- Section 3 -->
+<section class="section3 outer-container" id="sect3">
+    <div class="content-wrapper3 flex column container">
+        <img src="assets/images/Game-Machines.svg" alt="Game mechanics">
+        <div class="bullet-div flex center">
+            <!-- first bullet -->
+            <div class="bullet flex column">
+                <div class="bullet-heading flex column ">
+                    <h3 class="Orbitron32 text-center">M.A.C.S.</h3>
+                    <h4 class="DmSans24 text-center">Martial arts combat system</h4>
+                </div>
+                <ul class="flex column">
+                    <li class="DmSans20 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Customize close-combat Abilities</li>
+                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Tailor, Experiment, Perfect Martial Combat Style using system</li>
+                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Share Created combos with the online player community</li>
+                </ul>
+            </div>
+        <!-- second bullet -->
+        <div class="bullet-div second-bullet flex space-between">
+            <div class="bullet flex column">
+                <div class="bullet-heading flex column ">
+                    <h3 class="Orbitron32 text-center">D.D.S</h3>
+                    <h4 class="DmSans24 text-center">Dynamic Dialogue System</h4>
+                </div>
+                <ul class="flex column">
+                    <li class="DmSans20 flex line-height26"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players will take decisions that will have consequences</li>
+                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Reactions and responses may drastically change based on their previous choices</li>
+                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players have to pay attention to the way they navigate conversations or they might be in for a surprise!</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Third bullet -->
+        <div class="bullet-div third-bullet flex space-between">
+            <div class="bullet flex column">
+                <div class="bullet-heading flex column ">
+                    <h3 class="Orbitron32 text-center">I.A.P.S.</h3>
+                    <h4 class="DmSans24 keeptogether text-center">Initiative and Action Points System</h4>
+                </div>
+                <ul class="flex column">
+                    <li class="DmSans20 flex line-height26"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Special I.A.P.S. Initiative and Action Points System to give players full control over the actions</li>
+                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players can create their own strategy to defeat enemies</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
