@@ -13,4 +13,238 @@
 }
 
 /* Fonts classes written here */
+.text-center{
+    text-align: center;
+}
+.Orbitron48{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFBFA;
+}
+.Orbitron48-weight900{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFBFA;
+}
+.Orbitron32{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    background: linear-gradient(180deg, #F3F1F0 0%, #646569 55%, #232221 96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron32-uppercase{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFBFA;
+}
+.Orbitron32-hover{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #E6E1E0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron24{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFBFA;
+    opacity: 0.48;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron24-Solidgrey{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #E6E1E0;
+}
+.Orbitron24-Solidwhite{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFBFA;
+    opacity: 0.64;
+}
+.Orbitron24-weight900{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #E6E1E0;
+    opacity: 0.48;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron22{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #0F0201;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron20{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFBFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Orbitron18{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFBFA;
+    opacity: 0.48;
+}
 
+
+/* DM Sans font classes written here */
+.DmSans24{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    color: #E6E1E0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.DmSans24-shadowed{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F3F1F0 0%, #646569 55%, #232221 96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.DmSans20{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #E6E1E0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.DmSans20-solidgrey  {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E6E1E0;
+    opacity: 0.6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.DmSans16{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E6E1E0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.DmSans14{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E6E1E0;
+    opacity: 0.4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Inter fonts written here */
+.Inter14{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E6E1E0;
+    opacity: 0.64;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
