@@ -1,0 +1,26 @@
+/* general reset css styles */
+html{
+    transition: 0.2s ease-in-out;
+    scroll-behavior: smooth;
+}
+*{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+/* General containers styles */
+.outer-container{
+    max-width: 1920px;
+}
+.container{
+    padding: 262px;
+}
