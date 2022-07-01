@@ -1,0 +1,16 @@
+/* Imported fonts from font-folder */
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf)
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Orbitron';
+    src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+/* Fonts classes written here */
+
