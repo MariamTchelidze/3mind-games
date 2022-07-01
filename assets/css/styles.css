@@ -12,15 +12,36 @@ html{
     text-decoration: none;
     box-sizing: border-box;
 }
+
+
+/* General containers styles */
 body{
     overflow-x: hidden;
     background: #FFFFFF;
     margin: 0 auto;
 }
-/* General containers styles */
+html {
+    transition: 0.2s ease-in-out;
+    scroll-behavior: smooth;
+}
 .outer-container{
     max-width: 1920px;
 }
 .container{
     padding: 262px;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.hidden{
+    display: none;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
 }
