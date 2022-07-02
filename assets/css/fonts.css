@@ -113,7 +113,7 @@
     color: #FFFBFA;
     opacity: 0.64;
 }
-.Orbitron24-weight900{
+.Orbitron24-nav-about-us{
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 900;
@@ -260,7 +260,7 @@
     flex-grow: 0;
 }
 
-/* Additional fonts according html */
+/*  --------------------------- ADDITIONAL HTML: FONTS CSS CODE WRITTEN HERE --------------------------- */
 h1{
     width: 675px;
 }
@@ -269,7 +269,7 @@ h1{
 }
 
 
-/* --------------------- section3 --------------------- */
+/*  --------------------------- SECTION 3: FONTS CSS CODE WRITTEN HERE --------------------------- */
 .line-height26{
     line-height: 26px;
 }
@@ -297,7 +297,7 @@ h1{
 .section3 .content-wrapper3 .bullet-div .third-bullet .h4{
     width: 436px;
 }
-/* ------------- Section 4: ------------- */
+/*  --------------------------- SECTION 4: FONTS CSS CODE WRITTEN HERE --------------------------- */
 .section4 .content-wrapper4 .character-info .description-div p{
     width: 666px;
 }
@@ -305,3 +305,4 @@ h1{
     text-decoration: underline;
     color: #FFFBFA;
 }
+/*  --------------------------- SECTION 5: FONTS CSS CODE WRITTEN HERE --------------------------- */

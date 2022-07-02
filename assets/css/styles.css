@@ -1,4 +1,4 @@
-/* general reset css styles */
+/*  --------------------------- GENERAL RESET: CSS CODE WRITTEN HERE --------------------------- */
 html{
     transition: 0.2s ease-in-out;
     scroll-behavior: smooth;
@@ -12,16 +12,12 @@ html{
     text-decoration: none;
     box-sizing: border-box;
 }
-/* General containers styles */
 body{
     overflow-x: hidden;
     background: #080707;
     margin: 0 auto;
 }
-html {
-    transition: 0.2s ease-in-out;
-    scroll-behavior: smooth;
-}
+/*  --------------------------- GENERAL STYLES: CSS CODE WRITTEN HERE --------------------------- */
 .outer-container{
     max-width: 1920px;
 }
@@ -33,6 +29,12 @@ html {
 }
 .grid{
     display: grid;
+}
+.grid-row {
+    grid-auto-flow: row;
+}
+.grid-column {
+    grid-auto-flow: column;
 }
 .hidden{
     display: none;
@@ -50,7 +52,7 @@ html {
     flex-direction: column;
 }
 
-/* -------------- Section1 + header styles written here -------------- */
+/*  --------------------------- SECTION 1 + HEADER: CSS CODE WRITTEN HERE --------------------------- */
 .section1{
     align-items: center;
     background-image: url(../images/main-bg-img.svg);
@@ -89,7 +91,7 @@ header nav ul{
 .section1 .heading a .chevronDown{
     height: 32px;
 }
-/* ----------------- SECTION2 STYLES WRITTEN HERE ----------------- */
+/*  --------------------------- SECTION 2: CSS CODE WRITTEN HERE --------------------------- */
 .section2{
     padding: 64px;
     align-items: center;
@@ -121,8 +123,7 @@ header nav ul{
     height: auto;
 } */
 
-/* ------------------- Section 3 CSS CODE WRITTEN HERE ------------------- */
-.section3 .content-wrapper3 {
+/*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */.section3 .content-wrapper3 {
     gap: 120px;
 }
 .section3 .content-wrapper3 .bullet-div{
@@ -155,12 +156,12 @@ header nav ul{
     align-items: center;
     gap: 64px;
 }
-.section4 .content-wrapper4 .character-info .character {
-    /* background-image: url(../images/Polygon\ 18.svg);
+/* .section4 .content-wrapper4 .character-info .character {
+    background-image: url(../images/Polygon\ 18.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px; */
-}
+    height: 400px;
+} */
 .section4 .content-wrapper4 .character-info .description-div {
     align-items: flex-start;
     gap: 48px;
@@ -196,4 +197,126 @@ header nav ul{
 .section4 .content-wrapper4 .characters-list .switch-character {
     align-items: flex-start;
     gap: 48px;
+}
+/*  --------------------------- SECTION 5: CSS CODE WRITTEN HERE --------------------------- */
+.section5 .content-wrapper5 {
+    gap: 120px;
+}
+.section5 .content-wrapper5 .inner-contentwrapper5 {
+    gap: 64px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left {
+     position: relative;
+     z-index: 1;
+     align-items: flex-start;
+     justify-content: start;
+     gap: 64px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div{
+    gap: 24px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div:nth-child(1){
+    width: 816px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div:nth-child(2){
+    width: 816px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left .mainBtn2 {
+    padding: 24px 64px 24px 64px;
+    border: 1px solid #FFFBFA;
+    /* filter: drop-shadow(4px 4px 0px #FFFBFA); */
+    align-items: center;
+    gap: 16px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left .upcoming-games-text-bg-img {
+    position: absolute;
+    z-index: 0;
+    left: 35%;
+    top: 15%;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .right{
+    position: relative;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .right .main-img-div .main-img{
+    position: relative;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .right .play-button2{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+/* game grid building grid are */
+.game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 16px;
+    grid-template-areas:
+        "content-1 content-1 content-1 content-1"
+        " content-2 content-3 content-4 content-5"
+  }
+  .content-1 {
+    grid-area: content-1;
+    grid-row: 1/2;
+  }
+  
+  .content-2 {
+    grid-area: content-2;
+    grid-row: 2/2;
+  }
+  
+  .content-3 {
+    grid-area: content-3;
+    grid-row: 2/2;
+  }
+  .content-4 {
+    grid-area: content-4;
+    grid-row: 2/2;
+  }
+  .content-5 {
+    grid-area:content-5;
+    grid-row: 2/2;
+  }
+  .game-img{
+    cursor: pointer;
+    transition: all 0.5ms linear 2ms;
+  }
+  .main-img-div{
+    cursor: pointer;
+    transition: all 0.5ms linear 2ms;
+  }
+  .game-img:hover{
+    border: 2px solid rgba(255, 89, 71, 1);
+  }
+/*  --------------------------- SECTION 5: CSS CODE WRITTEN HERE --------------------------- */
+.section6 .content-wrapper6 {
+    gap: 154px;
+    justify-content: center;
+    align-items: center;
+}
+.section6 .content-wrapper6 nav ul {
+    gap: 48px;
+}
+.section6 .content-wrapper6 nav ul li{
+    gap: 8px;
+    align-items: flex-start;
+}
+.section6 .content-wrapper6 nav ul li a{
+    transition: all 0.5s linear 2s;
+}
+.section6 .content-wrapper6 nav ul li a:hover{
+    /* font-size: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase; */
+    color: #FFFBFA;
+    opacity: 1;
+}
+.section6 .content-wrapper6 nav ul li .underline-hover{
+    height: 16px;
+    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
+}
+.section6 .content-wrapper6 nav ul li a:hover + div{
+    color: #FFFBFA;
+    opacity: 1;
+    display: block;
 }
