@@ -58,6 +58,23 @@ body{
     background-image: url(../images/main-bg-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.section1 .float-right {
+    position: absolute;
+    /* background-color: #E1261C; */
+    align-items: center;
+    gap: 32px;
+    height: 947px;
+    right: 120px;
+    top: 84px;
+}
+.section1 .float-right .line {
+    height: 338px;
+    width: 1px;
+    border: 1px solid rgba(255, 251, 250, 0.24);
+    /* transform: rotate(90deg); */
+    /* width: 338px; */
 }
 header{
     padding: 66px;
@@ -239,8 +256,12 @@ header nav ul{
     justify-content: space-between;
     gap: 24px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left  .section5-icons-div a img:hover{
-    fill: #ffffff;
+.svg-hover{
+    transition: all 0.5ms linear 0.5ms;
+}
+ .svg-hover:hover{
+    /* transform: scale(1.5); */
+    fill: #FFFFFF;
 }
 .section5 .content-wrapper5 .inner-content-wrapper5 .right{
     position: relative;
@@ -287,11 +308,11 @@ header nav ul{
   }
   .game-img{
     cursor: pointer;
-    transition: all 0.5ms linear 2ms;
+    transition: all 0.5ms linear 0.5ms;
   }
   .main-img-div{
     cursor: pointer;
-    transition: all 0.5ms linear 2ms;
+    transition: all 0.5ms linear 0.5ms;
   }
   .game-img:hover{
     border: 2px solid rgba(255, 89, 71, 1);
