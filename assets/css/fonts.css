@@ -214,6 +214,14 @@
     order: 0;
     flex-grow: 0;
 }
+.DmSans20-height32{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 251, 250, 0.6);
+}
 .DmSans16{
     font-family: 'DM Sans';
     font-style: normal;
@@ -288,4 +296,12 @@ h1{
 }
 .section3 .content-wrapper3 .bullet-div .third-bullet .h4{
     width: 436px;
+}
+/* ------------- Section 4: ------------- */
+.section4 .content-wrapper4 .character-info .description-div p{
+    width: 666px;
+}
+.section4 .content-wrapper4 .character-info .description-div a{
+    text-decoration: underline;
+    color: #FFFBFA;
 }

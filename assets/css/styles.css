@@ -146,3 +146,44 @@ header nav ul{
 
 
 /*  --------------------------- SECTION 4: CSS CODE WRITTEN HERE --------------------------- */
+
+.section4 .content-wrapper4{
+    gap: 120px;
+}
+.section4 .content-wrapper4 .character-info {
+    align-items: center;
+    gap: 64px;
+}
+.section4 .content-wrapper4 .character-info .character {
+    /* background-image: url(../images/Polygon\ 18.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; */
+}
+.section4 .content-wrapper4 .character-info .description-div {
+    align-items: flex-start;
+    gap: 48px;
+}
+.section4 .content-wrapper4 .characters-list .character-polygon{
+    /* border: 8px solid rgba(255, 251, 250, 0.16); */
+        position: relative;
+        overflow: hidden;
+        background:transparent;
+        width: 160px;
+        height:160px;
+        transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+}
+.section4 .content-wrapper4 .characters-list .character-polygon img {
+    position: absolute;
+    transform: rotate(30deg) skewX(-30deg) scaleY(.866)
+}
+.section4 .content-wrapper4 .characters-list .character-polygon:before {
+    position: absolute;
+    right: 6.7%;
+    bottom: 0;
+    left: 6.7%;
+    top: 0;
+    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+    background: rgba(255, 251, 250, 0.16);
+    content: '';
+}  
