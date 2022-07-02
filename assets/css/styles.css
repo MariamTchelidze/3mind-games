@@ -149,6 +149,7 @@ header nav ul{
 
 .section4 .content-wrapper4{
     gap: 120px;
+    align-items: center;
 }
 .section4 .content-wrapper4 .character-info {
     align-items: center;
@@ -162,6 +163,11 @@ header nav ul{
 }
 .section4 .content-wrapper4 .character-info .description-div {
     align-items: flex-start;
+    gap: 48px;
+}
+.section4 .content-wrapper4 .characters-list {
+    align-items: center;
+    justify-content: space-between;
     gap: 48px;
 }
 .section4 .content-wrapper4 .characters-list .character-polygon{
@@ -187,3 +193,7 @@ header nav ul{
     background: rgba(255, 251, 250, 0.16);
     content: '';
 }  
+.section4 .content-wrapper4 .characters-list .switch-character {
+    align-items: flex-start;
+    gap: 48px;
+}
