@@ -232,7 +232,15 @@ header nav ul{
     position: absolute;
     z-index: 0;
     left: 35%;
-    top: 15%;
+    top: 20%;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left  .section5-icons-div {
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.section5 .content-wrapper5 .inner-content-wrapper5 .left  .section5-icons-div a img:hover{
+    fill: #ffffff;
 }
 .section5 .content-wrapper5 .inner-content-wrapper5 .right{
     position: relative;
