@@ -22,7 +22,19 @@ body{
     max-width: 1920px;
 }
 .container{
-    padding: 262px;
+    padding: 200px 120px;
+}
+.hidden{
+    display: none;
+}
+.width100{
+    width: 100%;
+}
+.gap24{
+    gap: 24px;
+}
+.gap16{
+    gap: 16px;
 }
 .flex{
     display: flex;
@@ -35,9 +47,6 @@ body{
 }
 .grid-column {
     grid-auto-flow: column;
-}
-.hidden{
-    display: none;
 }
 .space-between{
     justify-content: space-between;
@@ -133,13 +142,6 @@ header nav ul{
     background: #FFFBFA;
     box-shadow: 4px 4px 0px #E23826;
 }
-/* .section2 .right{
-    background-image: url(../images/img1\ 1.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-} */
-
 /*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */.section3 .content-wrapper3 {
     gap: 120px;
 }
@@ -161,10 +163,7 @@ header nav ul{
     align-items: center;
     gap: 24px;
 }
-
-
 /*  --------------------------- SECTION 4: CSS CODE WRITTEN HERE --------------------------- */
-
 .section4 .content-wrapper4{
     gap: 120px;
     align-items: center;
@@ -173,12 +172,6 @@ header nav ul{
     align-items: center;
     gap: 64px;
 }
-/* .section4 .content-wrapper4 .character-info .character {
-    background-image: url(../images/Polygon\ 18.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-} */
 .section4 .content-wrapper4 .character-info .description-div {
     align-items: flex-start;
     gap: 48px;
@@ -189,7 +182,6 @@ header nav ul{
     gap: 48px;
 }
 .section4 .content-wrapper4 .characters-list .character-polygon{
-    /* border: 8px solid rgba(255, 251, 250, 0.16); */
         position: relative;
         overflow: hidden;
         background:transparent;
@@ -260,8 +252,7 @@ header nav ul{
     transition: all 0.5ms linear 0.5ms;
 }
  .svg-hover:hover{
-    /* transform: scale(1.5); */
-    fill: #FFFFFF;
+    fill: #FFFFFF; /* doesn't work */
 }
 .section5 .content-wrapper5 .inner-content-wrapper5 .right{
     position: relative;
@@ -317,7 +308,7 @@ header nav ul{
   .game-img:hover{
     border: 2px solid rgba(255, 89, 71, 1);
   }
-/*  --------------------------- SECTION 5: CSS CODE WRITTEN HERE --------------------------- */
+/*  --------------------------- SECTION 6: CSS CODE WRITTEN HERE --------------------------- */
 .section6 .content-wrapper6 {
     gap: 154px;
     justify-content: center;
@@ -328,24 +319,42 @@ header nav ul{
 }
 .section6 .content-wrapper6 nav ul li{
     gap: 8px;
-    align-items: flex-start;
-}
-.section6 .content-wrapper6 nav ul li a{
-    transition: all 0.5s linear 2s;
-}
-.section6 .content-wrapper6 nav ul li a:hover{
-    /* font-size: 32px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase; */
-    color: #FFFBFA;
-    opacity: 1;
-}
-.section6 .content-wrapper6 nav ul li .underline-hover{
-    height: 16px;
-    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
+    transition: all 0.5ms linear 0.5ms;
 }
 .section6 .content-wrapper6 nav ul li a:hover + div{
-    color: #FFFBFA;
-    opacity: 1;
     display: block;
 }
+/*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
+/* footer{
+    background-color: rebeccapurple;
+
+} */
+footer .content-wrapper7 {
+    gap: 64px;
+}
+footer .content-wrapper7 .top-footer{
+    align-items: center;
+    gap: 80px;
+}
+footer .content-wrapper7 .top-footer .footer-line{
+    width: 1131px;
+    height: 2px;
+    background: #FFFBFA;
+    opacity: 0.08;
+}
+footer .content-wrapper7 .top-footer .footer-icons {
+    align-items: 32px;
+    gap: 32px;
+}
+footer .content-wrapper7 .lower-footer{
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+footer .content-wrapper7 .lower-footer .lower-text-div div {
+   align-items: center;
+   flex-direction: column-reverse;
+}
+#first {order: 3;}
+#second {order: 2;}
+#third {order: 1;}
