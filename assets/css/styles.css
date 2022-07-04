@@ -30,6 +30,9 @@ body{
 .width100{
     width: 100%;
 }
+.gap64{
+    gap: 64px;
+}
 .gap24{
     gap: 24px;
 }
@@ -233,7 +236,8 @@ header nav ul{
 .section5 .content-wrapper5 .inner-content-wrapper5 .left .mainBtn2 {
     padding: 24px 64px 24px 64px;
     border: 1px solid #FFFBFA;
-    /* filter: drop-shadow(4px 4px 0px #FFFBFA); */
+    /* filter: drop-shadow(4px 4px 0px #); */
+    box-shadow: 4px 4px 0px #FFFBFA;
     align-items: center;
     gap: 16px;
 }
@@ -321,8 +325,41 @@ header nav ul{
     gap: 8px;
     transition: all 0.5ms linear 0.5ms;
 }
+.section6 .content-wrapper6 nav ul li .underline-hover{
+    height: 16px;
+    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
+}
+.section6 .content-wrapper6 nav ul li a:hover{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #E6E1E0;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
 .section6 .content-wrapper6 nav ul li a:hover + div{
     display: block;
+}
+.section6 .content-wrapper6 .content-flex-wrapper6 {
+    /* align-items: center; */
+    align-items: flex-start;
+    position: relative;
+}
+.section6 .content-wrapper6 .content-flex-wrapper6 .switch{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 60%;
+}
+.section6 .content-wrapper6 .content-flex-wrapper6 .left,
+.section6 .content-wrapper6 .content-flex-wrapper6 .right{
+    gap: 64px;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
 /* footer{
