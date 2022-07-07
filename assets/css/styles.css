@@ -198,6 +198,9 @@ header nav ul{
 .section3 .content-wrapper3 {
     gap: 120px;
 }
+.section3 .content-wrapper3 h2{
+    width: 857px;
+}
 .section3 .content-wrapper3 .inner-contentwrapper3 {
     gap: 64px;
 }
@@ -360,11 +363,10 @@ header nav ul{
 .section4 .content-wrapper4 .about-us-div p {
     width: 1424px;
 }
+.alexandre-border{
+    border: 8px rgba(227, 56, 38, 1);
+}
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
-/* footer{
-    background-color: rebeccapurple;
-
-} */
 footer .content-wrapper7 {
     gap: 64px;
 }
