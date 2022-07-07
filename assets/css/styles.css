@@ -101,7 +101,6 @@ body{
 }
 .section1 .float-right {
     position: absolute;
-    /* background-color: #E1261C; */
     align-items: center;
     gap: 32px;
     height: 947px;
@@ -113,8 +112,6 @@ body{
     width: 1px;
     border: 1px solid rgba(255, 251, 250, 0.24);
     margin-right: -152px;
-    /* transform: rotate(90deg); */
-    /* width: 338px; */
 }
 .section1 .float-right .line2{
     height: 32px;
@@ -196,23 +193,18 @@ header nav ul{
 }
 /*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */
 .section3 .content-wrapper3 {
-    gap: 120px;
+    gap: 196px;
 }
 .section3 .content-wrapper3 h2{
     width: 857px;
 }
-.section3 .content-wrapper3 .inner-contentwrapper3 {
-    gap: 64px;
-}
+
 .section3 .content-wrapper3 .inner-content-wrapper3 .left {
      position: relative;
      z-index: 1;
      align-items: flex-start;
      justify-content: start;
      gap: 64px;
-}
-.section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div{
-    gap: 24px;
 }
 .section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div:nth-child(1){
     width: 816px;
@@ -259,6 +251,7 @@ header nav ul{
 /* game grid building grid are */
 .game-grid {
     display: grid;
+    height: 737px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
@@ -270,12 +263,10 @@ header nav ul{
     grid-area: content-1;
     grid-row: 1/2;
   }
-  
   .content-2 {
     grid-area: content-2;
     grid-row: 2/2;
   }
-  
   .content-3 {
     grid-area: content-3;
     grid-row: 2/2;
