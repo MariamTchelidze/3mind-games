@@ -215,8 +215,11 @@ header nav ul{
 .section3 .content-wrapper3 .inner-content-wrapper3 .left .mainBtn2 {
     padding: 24px 64px 24px 64px;
     border: 1px solid #FFFBFA;
-    /* filter: drop-shadow(4px 4px 0px #); */
-    box-shadow: 4px 4px 0px #FFFBFA;
+    filter: drop-shadow(4px 4px 0px #FFFBFA);
+    -webkit-filter: drop-shadow(4px 4px 0px #FFFBFA);
+    -moz-filter: drop-shadow(4px 4px 0px #FFFBFA);
+    -ms-filter: drop-shadow(4px 4px 0px #FFFBFA);
+    -o-filter: drop-shadow(4px 4px 0px #FFFBFA);
     align-items: center;
     gap: 16px;
 }
@@ -316,8 +319,8 @@ header nav ul{
     /* background-color: red; */
     background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
 }
-
-.section4 .content-wrapper4 nav ul li a:hover + div{
+.section4 .content-wrapper4 nav ul li a:hover{
+    transform: translateY(-20px);
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 900;
@@ -327,6 +330,9 @@ header nav ul{
     text-transform: uppercase;
     color: #E6E1E0;
     opacity: 1;
+}
+.section4 .content-wrapper4 nav ul li a:hover + div{
+    transform: translateY(-40px);
     flex: none;
     order: 0;
     flex-grow: 0;
