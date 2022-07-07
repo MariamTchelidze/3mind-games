@@ -30,8 +30,23 @@ body{
 .width100{
     width: 100%;
 }
+.relative {
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.gap120{
+    gap: 120px;
+}
+.gap80{
+    gap: 80px;
+}
 .gap64{
     gap: 64px;
+}
+.gap48{
+    gap: 48px;
 }
 .gap24{
     gap: 24px;
@@ -57,6 +72,18 @@ body{
 .space-around {
     justify-content: space-around;
 }
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-center{
+    align-items: center;
+}
+.align-end {
+    align-items: flex-end;
+}
 .center {
     justify-content: center;
 }
@@ -67,7 +94,7 @@ body{
 /*  --------------------------- SECTION 1 + HEADER: CSS CODE WRITTEN HERE --------------------------- */
 .section1{
     align-items: center;
-    background-image: url(../images/main-bg-img.svg);
+    background-image: url(../images/1-sec-BGimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -85,9 +112,36 @@ body{
     height: 338px;
     width: 1px;
     border: 1px solid rgba(255, 251, 250, 0.24);
+    margin-right: -152px;
     /* transform: rotate(90deg); */
     /* width: 338px; */
 }
+.section1 .float-right .line2{
+    height: 32px;
+    margin-right: -152px;
+    width: 1px;
+    border: 1px solid rgba(255, 251, 250, 0.24);
+}
+.section1 .float-right .section1-polygon {
+    cursor: pointer;
+    padding: 32px;
+    overflow: hidden;
+    background:transparent;
+    width: 16px;
+    height:16px;
+    transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+}
+.section1 .float-right .section1-polygon:before {
+    position: absolute;
+    right: 6.7%;
+    bottom: 0;
+    left: 6.7%;
+    top: 0;
+    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+    background: rgba(255, 251, 250, 0.16);
+    content: '';
+}
+
 header{
     padding: 66px;
 }
@@ -101,7 +155,13 @@ header nav ul{
 .section1 .content-wrapper1 {
     padding-bottom: 120px;
 }
-.section1 .content-wrapper1 .heading{
+.heading {
+    gap: 134px;
+}
+.heading .logo-img{
+    margin-top: 169px;
+}
+.section1 .content-wrapper1 {
     margin-top: 243px;
     gap: 64px;
 }
@@ -120,6 +180,7 @@ header nav ul{
 .section1 .heading a .chevronDown{
     height: 32px;
 }
+
 /*  --------------------------- SECTION 2: CSS CODE WRITTEN HERE --------------------------- */
 .section2{
     padding: 64px;
@@ -128,112 +189,35 @@ header nav ul{
 .section2 .content-wrapper2{
     align-items: center;
 }
-.section2 .left{
-    align-items: flex-start;
-    gap: 32px;
+.section2 .content-wrapper2 .first-descriptionDiv p{
+    width: 998px;
+    margin-top: 24px;
+    opacity: 0.48;
 }
-.section2 .left p{
-    text-align: left;
-    width: 590px;
-}
-.section2 .left .mainBtn{
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 24px 120px;
-    cursor: pointer;
-    background: #FFFBFA;
-    box-shadow: 4px 4px 0px #E23826;
-}
-/*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */.section3 .content-wrapper3 {
+/*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */
+.section3 .content-wrapper3 {
     gap: 120px;
 }
-.section3 .content-wrapper3 .bullet-div{
-    gap: 24px;
-}
-.section3 .content-wrapper3 .bullet-div .bullet .bullet-heading{
-     gap: 16px;
-}
-.section3 .content-wrapper3 .bullet-div .bullet {
-    background: rgba(255, 251, 250, 0.04);
-    padding: 32px 48px 145px 48px;
+.section3 .content-wrapper3 .inner-contentwrapper3 {
     gap: 64px;
 }
-.section3 .content-wrapper3 .bullet-div .bullet ul {
-    gap: 32px;
-}
-.section3 .content-wrapper3 .bullet-div .bullet ul li{
-    align-items: center;
-    gap: 24px;
-}
-/*  --------------------------- SECTION 4: CSS CODE WRITTEN HERE --------------------------- */
-.section4 .content-wrapper4{
-    gap: 120px;
-    align-items: center;
-}
-.section4 .content-wrapper4 .character-info {
-    align-items: center;
-    gap: 64px;
-}
-.section4 .content-wrapper4 .character-info .description-div {
-    align-items: flex-start;
-    gap: 48px;
-}
-.section4 .content-wrapper4 .characters-list {
-    align-items: center;
-    justify-content: space-between;
-    gap: 48px;
-}
-.section4 .content-wrapper4 .characters-list .character-polygon{
-        position: relative;
-        overflow: hidden;
-        background:transparent;
-        width: 160px;
-        height:160px;
-        transform: rotate(-30deg) skewX(30deg) scaleY(.866);
-}
-.section4 .content-wrapper4 .characters-list .character-polygon img {
-    position: absolute;
-    transform: rotate(30deg) skewX(-30deg) scaleY(.866)
-}
-.section4 .content-wrapper4 .characters-list .character-polygon:before {
-    position: absolute;
-    right: 6.7%;
-    bottom: 0;
-    left: 6.7%;
-    top: 0;
-    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
-    background: rgba(255, 251, 250, 0.16);
-    content: '';
-}  
-.section4 .content-wrapper4 .characters-list .switch-character {
-    align-items: flex-start;
-    gap: 48px;
-}
-/*  --------------------------- SECTION 5: CSS CODE WRITTEN HERE --------------------------- */
-.section5 .content-wrapper5 {
-    gap: 120px;
-}
-.section5 .content-wrapper5 .inner-contentwrapper5 {
-    gap: 64px;
-}
-.section5 .content-wrapper5 .inner-content-wrapper5 .left {
+.section3 .content-wrapper3 .inner-content-wrapper3 .left {
      position: relative;
      z-index: 1;
      align-items: flex-start;
      justify-content: start;
      gap: 64px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div{
+.section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div{
     gap: 24px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div:nth-child(1){
+.section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div:nth-child(1){
     width: 816px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left .paragraph-div:nth-child(2){
+.section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div:nth-child(2){
     width: 816px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left .mainBtn2 {
+.section3 .content-wrapper3 .inner-content-wrapper3 .left .mainBtn2 {
     padding: 24px 64px 24px 64px;
     border: 1px solid #FFFBFA;
     /* filter: drop-shadow(4px 4px 0px #); */
@@ -241,13 +225,13 @@ header nav ul{
     align-items: center;
     gap: 16px;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left .upcoming-games-text-bg-img {
+.section3 .content-wrapper3 .inner-content-wrapper3 .left .upcoming-games-text-bg-img {
     position: absolute;
     z-index: 0;
     left: 35%;
     top: 20%;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .left  .section5-icons-div {
+.section3 .content-wrapper3 .inner-content-wrapper3 .left  .section5-icons-div {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
@@ -258,13 +242,13 @@ header nav ul{
  .svg-hover:hover{
     fill: #FFFFFF; /* doesn't work */
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .right{
+.section3 .content-wrapper3 .inner-content-wrapper3 .right{
     position: relative;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .right .main-img-div .main-img{
+.section3 .content-wrapper3 .inner-content-wrapper3 .right .main-img-div .main-img{
     position: relative;
 }
-.section5 .content-wrapper5 .inner-content-wrapper5 .right .play-button2{
+.section3 .content-wrapper3 .inner-content-wrapper3 .right .play-button2{
     position: absolute;
     left: 40%;
     top: 20%;
@@ -314,24 +298,30 @@ header nav ul{
   .game-img:hover{
     border: 2px solid rgba(255, 89, 71, 1);
   }
-/*  --------------------------- SECTION 6: CSS CODE WRITTEN HERE --------------------------- */
-.section6 .content-wrapper6 {
+
+/*  --------------------------- SECTION 4: CSS CODE WRITTEN HERE --------------------------- */
+.section4 .content-wrapper4 {
     gap: 154px;
-    justify-content: center;
-    align-items: center;
 }
-.section6 .content-wrapper6 nav ul {
-    gap: 48px;
-}
-.section6 .content-wrapper6 nav ul li{
+.section4 .content-wrapper4 nav ul li{
     gap: 8px;
     transition: all 0.5ms linear 0.5ms;
 }
-.section6 .content-wrapper6 nav ul li .underline-hover{
+.section4 .content-wrapper4 nav ul li{
     height: 16px;
-    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
 }
-.section6 .content-wrapper6 nav ul li a:hover{
+.section4 .content-wrapper4 nav ul li a{
+    border-bottom: 16px solid #080707;
+    position: relative;
+    transition: 0.5s;
+}
+.hover-div{
+    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
+    position: relative;
+    transition: 0.5s;
+}
+.section4 .content-wrapper4 nav ul li a:hover + div{
+    top: -20px !important;
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 900;
@@ -340,28 +330,34 @@ header nav ul{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #E6E1E0;
-    /* flex: none;
+    opacity: 1;
+    flex: none;
     order: 0;
-    flex-grow: 0; */
-}
-.section6 .content-wrapper6 nav ul li a:hover + div{
+    flex-grow: 0;
     display: block;
 }
-.section6 .content-wrapper6 .content-flex-wrapper6 {
+.section4 .content-wrapper4 .content-flex-wrapper4 {
     /* align-items: center; */
     align-items: flex-start;
     position: relative;
 }
-.section6 .content-wrapper6 .content-flex-wrapper6 .switch{
+.section4 .content-wrapper4 .content-flex-wrapper4 .switch{
     cursor: pointer;
     position: absolute;
     left: 50%;
     right: 50%;
     top: 60%;
 }
-.section6 .content-wrapper6 .content-flex-wrapper6 .left,
-.section6 .content-wrapper6 .content-flex-wrapper6 .right{
+.section4 .content-wrapper4 .content-flex-wrapper4 .left,
+.section4 .content-wrapper4 .content-flex-wrapper4 .right{
     gap: 64px;
+}
+.section4 .content-wrapper4 .about-us-div{
+    padding: 64px 48px;
+    background: rgba(255, 251, 250, 0.04);
+}
+.section4 .content-wrapper4 .about-us-div p {
+    width: 1424px;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
 /* footer{

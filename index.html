@@ -12,13 +12,23 @@
 <body>
     <!-- Header + section1 -->
     <section class="section1 flex column" id="sect1">
-        <div class="float-right flex column center">
+        <!-- <div class="float-right flex column center align-end">
             <div class="line"></div>
-            <img src="assets/images/steam.svg" alt="Steam">
-            <img src="assets/images/playstation.svg" alt="Playstation">
-            <img src="assets/images/xbox.svg" alt="Xbox">
+            <div class="section1-floatright-content flex align-center center gap24">
+                <a class="Orbitron16" href="#">Shadow’s Light</a>
+                <div class="section1-polygon flex center align-center">
+                    <div class="inner-polygon"></div>
+                </div>
+            </div>
+            <div class="line2"></div>
+            <div class="section1-floatright-content flex align-center center gap24">
+                <a class="Orbitron16" href="#">The Protagonist: EX-1 Light</a>
+                <div class="section1-polygon ">
+                    <div class="inner-polygon absolute"></div>
+                </div>
+            </div>
             <div class="line"></div>
-        </div>
+        </div> -->
         <header class="flex space-between">
             <nav class="flex center">
                 <ul class="flex space-between">
@@ -36,243 +46,167 @@
         <div class="content-wrapper1">
             <div class="heading flex column">
                 <div class="flex column center text-div">
-                    <h1 class="Orbitron48">The Ultimate Gaming Experience!</h1>
-                    <p class="Orbitron18">We create passionate experience and entertainment, Rich emotionally engaging games with very deep stories and unforgettable characters</p>
-                    <img src="assets/images/play-button.svg" alt="Play video">
+                    <h1 class="Orbitron48">Welcome to 3Mind Games</h1>
+                    <p class="Orbitron18">We create passionate, rich, and emotionally engaging games with deep story lines and memorable characters</p>
+                    <img class="logo-img" src="assets/images/ShadowsLight_Logo (1stsection).svg" alt="Shadow Light">
                 </div>
                 <div class="flex column lower-div">
                     <h3 class="Orbitron24 text-center">Present Project</h3>
-                    <a href="#sect2" class="text-center"><img class="chevronDown" src="assets/images/Chevron Down.svg" alt="Scroll Down"></a>
+                    <a href="#sect2" class="text-center"><img class="chevronDown" src="assets/images/Chevron-Down.svg" alt="Scroll Down"></a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Section2 -->
-    <section class="section2 outer-container" id="sect2">
-        <div class="content-wrapper2 container flex space-between">
-            <div class="left flex column">
-                <h2 class="Orbitron48-weight900">The Protagonist: EX-1</h2>
-                <h4 class="Orbitron24-Solidgrey">Turn-Based Tactical RPG</h4>
-                <p class="Orbitron18">Experience a gripping, original story, written by our narrative designer who worked on the Star Wars, Warhammer 40,000 and Mass Effect franchises</p>
-                <button class="center flex mainBtn Orbitron22">Visit <img src="assets/images/button-arrow.svg" alt="button-arrow"></button>
+    <section class="section2" id="sect2">
+        <div class="content-wrapper2 container flex column align-center gap120">
+            <div class="game-character-parent flex gap80">
+                <img src="assets/images/first character.svg" alt="Character">
+            <div class="first-descriptionDiv flex center column align-start gap24">
+                <h2 class="Orbitron48">Choose your side</h2>
+                <h5 class="Orbitron24-700">Every story has two sides. Now you can experience both!</h5>
+                <p class="DmSans24">Play as knights and magicians, or as demons and orcs in this dark fantasy narrative adventure. Change the story by making hard choices, and live with the consequences! Every story has two sides. Now you can experience both!</p>
             </div>
-            <div class="right">
-                <img src="assets/images/bg-img.svg" alt="Bg image">
+            </div>
+            <div class="game-character-parent flex row-reverse gap80">
+                <img src="assets/images/second character.svg" alt="Character">
+            <div class="first-descriptionDiv flex center column align-start gap24">
+                <h2 class="Orbitron48">Demons and orcs</h2>
+                <h5 class="Orbitron24-700">Light or dark, good or evil; everyone has their reasons</h5>
+                <p class="DmSans24">In a barren & unforgiving eastern land, an orc chieftain stumbles upon a mysterious parched and withering woman, whose premonition could be the key to saving his clan and bringing down the Holy Kingdom.</p>
+            </div>
             </div>
         </div>
     </section>
-
 <!-- Section 3 -->
-<section class="section3 outer-container" id="sect3">
-    <div class="content-wrapper3 flex column container">
-        <img src="assets/images/Game-Machines.svg" alt="Game mechanics">
-        <div class="bullet-div flex center">
-            <!-- first bullet -->
-            <div class="bullet flex column">
-                <div class="bullet-heading flex column ">
-                    <h3 class="Orbitron32 text-center">M.A.C.S.</h3>
-                    <h4 class="DmSans24 text-center">Martial arts combat system</h4>
+    <section class="section3" id="sect5">
+        <div class="content-wrapper3 container flex column">
+            <img src="assets/images/upcoming-games.svg" alt="Upcoming">
+            <div class="inner-content-wrapper3 flex center">
+                <div class="left flex column">
+                    <img src="assets/images/ShadowsLight_Logo.svg" alt="Shadow light">
+                    <div class="paragraph-div flex column">
+                        <p class="DmSans20-solidgrey">The long stalemate of war is about to be broken. On one side, a kingdom blessed by benevolent gods. On the other, a land crawling with monsters. The truth will soon be revealed...</p>
+                        <p class="DmSans20-solidgrey">Play as knights and magicians, or as demons and orcs in this dark fantasy narrative adventure. Change the story by making hard choices, and live with the consequences! Every story has two sides. Now you can experience both!</p>
+                    </div>
+                    <img class="upcoming-games-text-bg-img" src="assets/images/upcoming games text-bg-img.svg" alt="">
+                    <div class="section5-icons-div flex ">
+                        <a href="#"><img class="svg-hover" src="assets/images/steam.svg" alt="Steam"></a>
+                        <a href="#"><img class="svg-hover" src="assets/images/playstation.svg" alt="Playstation"></a>
+                        <a href="#"><img class="svg-hover" src="assets/images/xbox.svg" alt="X-box"></a>
+                    </div>
+                    <button class="flex center Orbitron20 mainBtn2">
+                        Visit<img src="assets/images/button arrow (white).svg" alt="Visit">
+                    </button>
                 </div>
-                <ul class="flex column">
-                    <li class="DmSans20 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Customize close-combat Abilities</li>
-                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Tailor, Experiment, Perfect Martial Combat Style using system</li>
-                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Share Created combos with the online player community</li>
-                </ul>
-            </div>
-        <!-- second bullet -->
-        <div class="bullet-div second-bullet flex space-between">
-            <div class="bullet flex column">
-                <div class="bullet-heading flex column ">
-                    <h3 class="Orbitron32 text-center">D.D.S</h3>
-                    <h4 class="DmSans24 text-center">Dynamic Dialogue System</h4>
+                <div class="right">
+                    <div class="game-grid grid">
+                            <div class="main-img-div content-1">
+                                <img class="main-img content1" src="assets/images/shadow-light-img-main.jpg" alt="Shadow-Light">
+                                <img class="play-button2" src="assets/images/play-button-grey.svg" alt="Play video">
+                            </div>
+                                <img class="game-img content-2" src="assets/images/slide-img1.jpg" alt="war scene">
+                                <img class="game-img content-3" src="assets/images/slide-img2.jpg" alt="Goblin">
+                                <img class="game-img content-4" src="assets/images/slide-img3.jpg" alt="Duel">
+                                <img class="game-img content-5" src="assets/images/slide-img4.jpg" alt="Ruins">
+                    </div>
                 </div>
-                <ul class="flex column">
-                    <li class="DmSans20 flex line-height26"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players will take decisions that will have consequences</li>
-                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Reactions and responses may drastically change based on their previous choices</li>
-                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players have to pay attention to the way they navigate conversations or they might be in for a surprise!</li>
-                </ul>
-            </div>
-        </div>
-        <!-- Third bullet -->
-        <div class="bullet-div third-bullet flex space-between">
-            <div class="bullet flex column">
-                <div class="bullet-heading flex column ">
-                    <h3 class="Orbitron32 text-center">I.A.P.S.</h3>
-                    <h4 class="DmSans24 keeptogether text-center">Initiative and Action Points System</h4>
-                </div>
-                <ul class="flex column">
-                    <li class="DmSans20 flex line-height26"> <img src="assets/images/Polygon-list.svg" alt="Bullet"> Special I.A.P.S. Initiative and Action Points System to give players full control over the actions</li>
-                    <li class="DmSans20 line-height26 flex"> <img src="assets/images/Polygon-list.svg" alt="Bullet">Players can create their own strategy to defeat enemies</li>
-                </ul>
             </div>
         </div>
-        </div>
-    </div>
-</section>
+    </section>
 <!-- Section 4 -->
-<section class="section4 outer-container" id="sect4">
-    <div class="content-wrapper4 container flex column">
-        <img src="assets/images/characters.svg" alt="Characters">
-        <div class="character-info flex center">
-            <div class="character">
-                <img src="assets/images/Polygon 18.svg" alt="">
+    <section class="section4 flex column align-center center" id="sect6">
+        <div class="content-wrapper4 container flex column align-center center">
+            <img src="assets/images/about-us.svg" alt="About us">
+            <nav>
+                <ul class="flex space-between gap48 align-center">
+                    <li class="flex column">
+                        <a class="Orbitron24-nav-about-us" href="#">Founders</a>
+                        <div class="hover-div hidden"></div>
+                    </li>
+                    <li class="flex column">
+                        <a class="Orbitron24-nav-about-us" href="#">mission</a>
+                        <div class="hover-div hidden"></div>
+                    </li>
+                    <li class="flex column">
+                        <a class="Orbitron24-nav-about-us" href="#">origins</a>
+                        <div class="hover-div hidden"></div>
+                    </li>
+                    <li class="flex column">
+                        <a class="Orbitron24-nav-about-us" href="#">New Talents</a>
+                        <div class="hover-div hidden"></div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-flex-wrapper4 container flex space-between width100">
+                <div class="left flex column gap64">
+                    <div class="name-div flex column gap16">
+                        <h4 class="Orbitron32-uppercase">ALEXANDRE MARTEL</h4>
+                        <h5 class="DmSans24-shadowed">CEO AND PRODUCTION HEAD</h5>
+                    </div>
+                    <div>
+                        <img src="assets/images/Alex-author.svg" alt="Alexandre Martel">
+                    </div>
+                </div>
+                <img class="switch" src="assets/images/switch-arrows-group.svg" alt="Switch">
+                <div class="right flex column gap64">
+                    <div class="name-div flex column gap16">
+                        <h4 class="Orbitron24-Solidwhite">DAO CHAMPAGNE</h4>
+                        <h5 class="DmSans20-solidgrey">CCO AND CREATIVE DIRECTOR</h5>
+                    </div>
+                    <div><img src="assets/images/Dao-author.svg" alt="Dao"></div>
+                </div>
             </div>
-            <div class="description-div flex column">
-                <h3 class="Orbitron32-uppercase">ANGEL</h3>
-                <p class="DmSans20-height32">A highly trained special agent with expertise in both sciences and martial combat. 
-                    The Terran government has devised a plan to infiltrate the orbiting station and neutralize the alien threat. 
-                    Sent to lower the space station’s impenetrable defenses, ANGEL instead, awakens in the infirmary of station’s prison 
-                    <a href="#"> Read more </a></p>
+            <div class="about-us-div">
+                <p class="DmSans20-solidgrey">Alexandre has extensive experience in management and administration. He also worked as a project manager on many AAA titles during his time at Ubisoft Montreal, including games such as, Splinter Cell, Rainbow Six and the Assassin’s Creeds series.
+                    His experience in big productions combined with his QA background ensures that whatever project produced by Alexandre, will be of the utmost quality. Alexandre strives to create innovative quality games that are fun and exciting, geared towards all types of gamers.                 
+                    As producer, he take care of the planning and management of the projects to ensure the team deliver on schedule. Alexandre also manage the planning of tasks available for each involved employees and subcontractors and works closely with the manager of each departments to develop different strategies.</p>
             </div>
         </div>
-        <div class="characters-list flex">
-            <div class=" character-polygon flex space-between">
-                <img src="assets/images/character1.svg" alt="Character 1">
-            </div>
-            <div class=" character-polygon flex space-between">
-                <img src="assets/images/character2.svg" alt=" Character 2">
-            </div>
-            <div class=" character-polygon flex space-between">
-                <img src="assets/images/character3.svg" alt="Character 3">
-            </div>
-            <div class=" character-polygon flex space-between">
-                <img src="assets/images/character4.svg" alt="Character 4">
-            </div>
-            <div class=" character-polygon flex space-between">
-                <img src="assets/images/character5.svg" alt="Character 5">
-            </div>
-            <div class="flex column switch-character">
-                <a href="#"><img src="assets/images/characters-section-arrow-right.svg" alt=""></a>
-                <a href="#"><img src="assets//images/characters-section-arrow-left.svg" alt=""></a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Section 5 -->
-<section class="section5 outer-container" id="sect5">
-    <div class="content-wrapper5 container flex column">
-        <img src="assets/images/upcoming-games.svg" alt="Upcoming">
-        <div class="inner-content-wrapper5 flex center">
-            <div class="left flex column">
-                <img src="assets/images/ShadowsLight_Logo.svg" alt="Shadow light">
-                <div class="paragraph-div flex column">
-                    <p class="DmSans20-solidgrey">The long stalemate of war is about to be broken. On one side, a kingdom blessed by benevolent gods. On the other, a land crawling with monsters. The truth will soon be revealed...</p>
-                    <p class="DmSans20-solidgrey">Play as knights and magicians, or as demons and orcs in this dark fantasy narrative adventure. Change the story by making hard choices, and live with the consequences! Every story has two sides. Now you can experience both!</p>
-                </div>
-                <img class="upcoming-games-text-bg-img" src="assets/images/upcoming games text-bg-img.svg" alt="">
-                <div class="section5-icons-div flex ">
-                    <a href="#"><img class="svg-hover" src="assets/images/steam.svg" alt="Steam"></a>
-                    <a href="#"><img class="svg-hover" src="assets/images/playstation.svg" alt="Playstation"></a>
-                    <a href="#"><img class="svg-hover" src="assets/images/xbox.svg" alt="X-box"></a>
-                </div>
-                <button class="flex center Orbitron20 mainBtn2">
-                    Visit<img src="assets/images/button arrow (white).svg" alt="Visit">
-                </button>
-            </div>
-            <div class="right">
-                <div class="game-grid grid">
-                        <div class="main-img-div content-1">
-                            <img class="main-img content1" src="assets/images/shadow-light-img-main.jpg" alt="Shadow-Light">
-                            <img class="play-button2" src="assets/images/play-button-grey.svg" alt="Play video">
-                        </div>
-                            <img class="game-img content-2" src="assets/images/slide-img1.jpg" alt="war scene">
-                            <img class="game-img content-3" src="assets/images/slide-img2.jpg" alt="Goblin">
-                            <img class="game-img content-4" src="assets/images/slide-img3.jpg" alt="Duel">
-                            <img class="game-img content-5" src="assets/images/slide-img4.jpg" alt="Ruins">
+    </section>
+    <footer class=" flex center">
+        <div class="content-wrapper7 container flex column center">
+            <div class="top-footer flex space-between width100">
+                <h3 class="Orbitron24-Solidwhite keeptogether">Stay Connected</h3>
+                <div class="footer-line"></div>
+                <div class="footer-icons flex space-between">
+                    <a href="#"><img src="assets/images/Twitter(white).svg" alt="Twitter"></a>
+                    <a href="#"><img src="assets/images/Facebook(white).svg" alt="Facebook"></a>
+                    <a href="#"><img src="assets/images/LinkedIn(white).svg" alt="LinkedIn"></a>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- Section 6 -->
-<section class="section6 outer-container" id="sect6">
-    <div class="content-wrapper6 container flex column">
-        <img src="assets/images/about-us.svg" alt="About us">
-        <nav>
-            <ul class="flex space-between">
-                <li class="flex column">
-                    <a class="Orbitron24-nav-about-us" href="#">Founders</a>
-                    <div class="underline-hover hidden"></div>
-                </li>
-                <li class="flex column">
-                    <a class="Orbitron24-nav-about-us" href="#">mission</a>
-                    <div class="underline-hover hidden"></div>
-                </li>
-                <li class="flex column">
-                    <a class="Orbitron24-nav-about-us" href="#">origins</a>
-                    <div class="underline-hover hidden"></div>
-                </li>
-                <li class="flex column">
-                    <a class="Orbitron24-nav-about-us" href="#">New Talents</a>
-                    <div class="underline-hover hidden"></div>
-                </li>
-            </ul>
-        </nav>
-        <div class="content-flex-wrapper6 container flex space-between width100">
-            <div class="left flex column gap64">
-                <div class="name-div flex column gap16">
-                    <h4 class="Orbitron32-uppercase">ALEXANDRE MARTEL</h4>
-                    <h5 class="DmSans24-shadowed">CEO AND PRODUCTION HEAD</h5>
-                </div>
-                <div>
-                    <img src="assets/images/Alex-author.svg" alt="Alexandre Martel">
-                </div>
-            </div>
-            <img class="switch" src="assets/images/switch-arrows-group.svg" alt="Switch">
-            <div class="right flex column gap64">
-                <div class="name-div flex column gap16">
-                    <h4 class="Orbitron24-Solidwhite">DAO CHAMPAGNE</h4>
-                    <h5 class="DmSans20-solidgrey">CCO AND CREATIVE DIRECTOR</h5>
-                </div>
-                <div><img src="assets/images/Dao-author.svg" alt="Dao"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<footer class="outer-container flex center">
-    <div class="content-wrapper7 container flex column center">
-        <div class="top-footer flex space-between width100">
-            <h3 class="Orbitron24-Solidwhite keeptogether">Stay Connected</h3>
-            <div class="footer-line"></div>
-            <div class="footer-icons flex space-between">
-                <a href="#"><img src="assets/images/Twitter(white).svg" alt="Twitter"></a>
-                <a href="#"><img src="assets/images/Facebook(white).svg" alt="Facebook"></a>
-                <a href="#"><img src="assets/images/LinkedIn(white).svg" alt="LinkedIn"></a>
-            </div>
-        </div>
-        <div class="lower-footer flex column center width100">
-            <a href="index.html"><img src="assets/images/footer-logo.svg" alt="Logo"></a>
-            <div class="lower-text-div flex column">
-                <div class="flex column gap24">
-                    <nav id="first">
-                        <ul class="flex gap16">
-                            <li><a class="DmSans16" href="index.html">Home</a></li>
-                            <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
-                            <li><a class="DmSans16" href="#">Games</a></li>
-                            <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
-                            <li><a class="DmSans16" href="#">Career</a></li>
-                            <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
-                            <li><a class="DmSans16" href="#">About us</a></li>
-                        </ul>
-                    </nav>
-                    <p id="second" class="Inter14">3Mind Games Inc. All rights reserved. Copyrights©2010-2014-2017</p>
-                    <nav id="third">
-                        <ul class="footer-ul2 flex gap16">
-                            <li><a class="DmSans14" href="#">Privacy</a></li>
-                            <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
-                            <li><a class="DmSans14" href="#">Terms</a></li>
-                            <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
-                            <li><a class="DmSans14" href="#">Cookie Policy</a></li>
-                            <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
-                            <li><a class="DmSans14" href="#">Legal</a></li>
-                        </ul>
-                    </nav>
+            <div class="lower-footer flex column center width100">
+                <a href="index.html"><img src="assets/images/footer-logo.svg" alt="Logo"></a>
+                <div class="lower-text-div flex column">
+                    <div class="flex column gap24">
+                        <nav id="first">
+                            <ul class="flex gap16">
+                                <li><a class="DmSans16" href="index.html">Home</a></li>
+                                <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
+                                <li><a class="DmSans16" href="#">Games</a></li>
+                                <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
+                                <li><a class="DmSans16" href="#">Career</a></li>
+                                <li><img src="assets/images/footer-divider.svg" alt="Divider"></li>
+                                <li><a class="DmSans16" href="#">About us</a></li>
+                            </ul>
+                        </nav>
+                        <p id="second" class="Inter14">3Mind Games Inc. All rights reserved. Copyrights©2010-2014-2017</p>
+                        <nav id="third">
+                            <ul class="footer-ul2 flex gap16">
+                                <li><a class="DmSans14" href="#">Privacy</a></li>
+                                <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
+                                <li><a class="DmSans14" href="#">Terms</a></li>
+                                <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
+                                <li><a class="DmSans14" href="#">Cookie Policy</a></li>
+                                <li><img src="assets/images/footer-divider2.svg" alt="Divider"></li>
+                                <li><a class="DmSans14" href="#">Legal</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

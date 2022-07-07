@@ -93,6 +93,16 @@
     order: 0;
     flex-grow: 0;
 }
+.Orbitron24-700{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #E6E1E0;
+    opacity: 0.8;
+}
 .Orbitron24-Solidgrey{
     font-family: 'Orbitron';
     font-style: normal;
@@ -159,7 +169,25 @@
     color: #FFFBFA;
     opacity: 0.48;
 }
-
+.Orbitron16{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFBFA;
+}
+.Orbitron16-active{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFBFA;
+    opacity: 0.32;
+}
 
 /* DM Sans font classes written here */
 .DmSans24{
