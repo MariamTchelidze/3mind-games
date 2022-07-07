@@ -316,12 +316,14 @@ header nav ul{
     transition: 0.5s;
 }
 .hover-div{
-    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
     position: relative;
-    transition: 0.5s;
+    transition: 0.3s;
+    height: 16px;
+    /* background-color: red; */
+    background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
 }
+
 .section4 .content-wrapper4 nav ul li a:hover + div{
-    top: -20px !important;
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 900;
@@ -337,7 +339,6 @@ header nav ul{
     display: block;
 }
 .section4 .content-wrapper4 .content-flex-wrapper4 {
-    /* align-items: center; */
     align-items: flex-start;
     position: relative;
 }
