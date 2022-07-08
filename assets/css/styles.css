@@ -249,7 +249,7 @@ header nav ul{
     transition: all 0.5ms linear 0.5ms;
 }
  .svg-hover:hover{
-    fill: #FFFFFF; /* doesn't work */
+    color: #FFFFFF; /* doesn't work */
 }
 .section3 .content-wrapper3 .inner-content-wrapper3 .right{
     position: relative;
@@ -373,6 +373,14 @@ header nav ul{
 }
 .alexandre-border{
     border: 8px rgba(227, 56, 38, 1);
+}
+#Dao{
+    display: none;
+}
+#daoImg{
+    height: 360px;
+    width: auto;
+    filter: grayscale(100%);
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
 footer .content-wrapper7 {
