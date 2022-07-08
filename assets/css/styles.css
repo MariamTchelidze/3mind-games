@@ -245,11 +245,15 @@ header nav ul{
     justify-content: space-between;
     gap: 24px;
 }
-.svg-hover{
+#playstation, #xbox, #steam{
+    opacity: 0.4;
     transition: all 0.5ms linear 0.5ms;
 }
- .svg-hover:hover{
-    color: #FFFFFF; /* doesn't work */
+#playstation:hover,
+#xbox:hover, 
+#steam:hover
+{
+    opacity: 1;
 }
 .section3 .content-wrapper3 .inner-content-wrapper3 .right{
     position: relative;
