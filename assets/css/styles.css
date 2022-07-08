@@ -107,6 +107,7 @@ body{
     right: 120px;
     top: 84px;
 }
+/* fixed to right div */
 .section1 .float-right .line {
     height: 338px;
     width: 1px;
@@ -213,6 +214,7 @@ header nav ul{
     width: 816px;
 }
 .section3 .content-wrapper3 .inner-content-wrapper3 .left .mainBtn2 {
+    cursor: pointer;
     position: relative;
     padding: 24px 64px 24px 64px;
     border: 1px solid #FFFBFA;
