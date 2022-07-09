@@ -16,6 +16,7 @@ body{
     overflow-x: hidden;
     background: #080707;
     margin: 0 auto;
+    background-image: url(../images/bg-cells.svg);
 }
 /*  --------------------------- GENERAL STYLES: CSS CODE WRITTEN HERE --------------------------- */
 .outer-container{
@@ -258,13 +259,9 @@ header nav ul{
 .section3 .content-wrapper3 .inner-content-wrapper3 .right{
     position: relative;
 }
-.section3 .content-wrapper3 .inner-content-wrapper3 .right .main-img-div .main-img{
-    position: relative;
-}
 .section3 .content-wrapper3 .inner-content-wrapper3 .right .play-button2{
-    position: absolute;
     left: 40%;
-    top: 20%;
+    top: 40%;
 }
 /* game grid building grid are */
 .game-grid {
@@ -385,6 +382,102 @@ header nav ul{
     height: 360px;
     width: auto;
     filter: grayscale(100%);
+}
+/* Mission */
+.Mission{
+    gap: 48px;
+    display: none;
+}
+.Mission h2{
+    width: 1084px;
+    text-align: center;
+}
+.Mission .mission-p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #E6E1E0;
+}
+.Mission .missionbullets{
+    background: rgba(255, 251, 250, 0.04);
+    padding: 80px;
+}
+.logo-img-absolute{
+    top: 280px ;
+}
+.Mission .missionbullets .bullets{
+    width: 100%;
+}
+.Mission .missionbullets .bullets ul{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.Mission .missionbullets .bullets ul li{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.Mission .missionbullets .bullets ul li p{
+    width: 480px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFBFA;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* origins */
+.origins{
+    display: none;
+}
+.origins h2,
+.origins .paragraphs-origins{
+    width: 1046px;
+}
+.building-img{
+    z-index: 1;
+    transition: 0.5s;
+}
+.origins-text{
+    bottom: 64px;
+    left: 104px;
+    z-index: 500;
+    display: none;
+}
+.building-img:hover{
+    cursor: pointer;
+}
+.building-img:hover + div{
+    display: block;
+}
+/* origins grid */
+.grid-office{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 16px;
+    align-items: flex-start;
+}
+.office-images .grid-3,
+.office-images .grid-4,
+.office-images .grid-5{
+    opacity: 0.4;
+}
+.grid-text p{
+    width: 912px;
+}
+.expand{
+    left: 50%;
+    right: 0;
+    top: 40%;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
 footer .content-wrapper7 {
