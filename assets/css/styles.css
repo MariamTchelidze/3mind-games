@@ -19,7 +19,8 @@ body{
     background-image: url(../images/bg-cells.svg);
     background-repeat: no-repeat; 
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
+
 }
 /*  --------------------------- GENERAL STYLES: CSS CODE WRITTEN HERE --------------------------- */
 .keeptogether{
@@ -43,6 +44,9 @@ body{
 }
 .absolute{
     position: absolute;
+}
+.margin-120{
+    margin-top: 120px;
 }
 .gap120{
     gap: 120px;
@@ -246,7 +250,6 @@ header nav ul{
     position: relative;
     padding: 24px 64px 24px 64px;
     border: 1px solid #FFFBFA;
-    /* filter: drop-shadow(4px 4px 0px #FFFBFA); */
     align-items: center;
     gap: 16px;
 }
@@ -275,7 +278,7 @@ header nav ul{
 }
 #playstation, #xbox, #steam{
     opacity: 0.4;
-    transition: all 0.5ms linear 0.5ms;
+    transition: 0.5s;
 }
 #playstation:hover,
 #xbox:hover, 
@@ -293,7 +296,7 @@ header nav ul{
 /* game grid building grid are */
 .game-grid {
     display: grid;
-    height: 737px;
+    height: 723px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
@@ -323,12 +326,12 @@ header nav ul{
   }
   .game-img{
     cursor: pointer;
-    transition: all 0.5ms linear 0.5ms;
+    transition: 0.5s;
     border: 2px solid #080707;
   }
   .main-img-div{
     cursor: pointer;
-    transition: all 0.5ms linear 0.5ms;
+    transition: 0.5s;
     border: 2px solid #080707;
   }
   .game-img:hover{
@@ -341,7 +344,7 @@ header nav ul{
 }
 .section4 .content-wrapper4 nav ul li{
     gap: 8px;
-    transition: all 0.5ms linear 0.5ms;
+    transition: 0.5s;
 }
 .section4 .content-wrapper4 nav ul li{
     height: 16px;
@@ -353,7 +356,7 @@ header nav ul{
 }
 .hover-div{
     position: relative;
-    transition: 0.3s;
+    transition: 0.5s;
     height: 16px;
     /* background-color: red; */
     background: radial-gradient(45.66% 55.87% at 50% 50%, #E1261C 0%, #E22C1F 11.52%, #E53826 25%, rgba(231, 72, 49, 0.7243) 50.22%, rgba(235, 106, 81, 0.18) 100%);
@@ -581,25 +584,37 @@ header nav ul{
     z-index: -1;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
-footer .content-wrapper7 {
+footer .content-wrapper5 {
     gap: 64px;
 }
-footer .content-wrapper7 .top-footer{
+footer .content-wrapper5 .top-footer{
     align-items: center;
     gap: 80px;
 }
-footer .content-wrapper7 .top-footer .footer-line{
+footer .content-wrapper5 .top-footer .footer-line{
     width: 1131px;
     height: 2px;
     background: #FFFBFA;
     opacity: 0.08;
 }
-footer .content-wrapper7 .lower-footer{
+footer .content-wrapper5 .top-footer .footer-icons .twitter-footer,
+footer .content-wrapper5 .top-footer .footer-icons .facebook-footer,
+footer .content-wrapper5 .top-footer .footer-icons .linkedin-footer{
+    opacity: 0.48;
+    transition: 0.5s;
+}
+footer .content-wrapper5 .top-footer .footer-icons .twitter-footer:hover,
+footer .content-wrapper5 .top-footer .footer-icons .facebook-footer:hover,
+footer .content-wrapper5 .top-footer .footer-icons .linkedin-footer:hover{
+    opacity: 1;
+}
+
+footer .content-wrapper5 .lower-footer{
     gap: 48px;
     align-items: center;
     justify-content: center;
 }
-footer .content-wrapper7 .lower-footer .lower-text-div div {
+footer .content-wrapper5 .lower-footer .lower-text-div div {
    align-items: center;
    flex-direction: column-reverse;
 }

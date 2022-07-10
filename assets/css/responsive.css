@@ -11,6 +11,11 @@
         width: 800px;
     }
 }
+@media (max-width: 1680px){
+    .section3 .contenet-wrapper3 .inner-content-wrapper3 .left .paragraph-div .section3-p {
+        width: 600px;
+    }
+}
 @media (max-width: 1515px){
     .section2 .content-wrapper2 .game-character-parent {
         gap: 48px;
@@ -49,6 +54,9 @@
     }
 }
 @media (max-width: 1170px){
+    .section1 header nav {
+        gap: 80px;
+    }
     footer .content-wrapper7 .top-footer{
         gap: 32px;
     }
