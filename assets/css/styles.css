@@ -49,6 +49,9 @@ body{
 .gap48{
     gap: 48px;
 }
+.gap32{
+    gap: 32px;
+}
 .gap24{
     gap: 24px;
 }
@@ -478,6 +481,80 @@ header nav ul{
     left: 50%;
     right: 0;
     top: 40%;
+}
+/* Talents section */
+.talents {
+    display: none;
+}
+.talents .content-wrapper-talents .left .left-text-div p{
+    width: 640px;
+}
+.talents .content-wrapper-talents .left{
+    width: 640px;
+}
+.talents .content-wrapper-talents .left .form{
+    width: 100%;
+}
+.talents .content-wrapper-talents .left .form .flex-form {
+    width: 100%;
+}
+.talents .content-wrapper-talents .left .form .flex-form input{
+    width: 50%;
+}
+.talents .content-wrapper-talents .left .form textarea [name=Message]{
+    resize: none;
+    height: 252px;
+}
+.talents .content-wrapper-talents .left form .bg-color {
+    background: #FFFBFA;
+}
+.talents .content-wrapper-talents .left form input {
+    height: 52px;
+}
+.talents .content-wrapper-talents .left .form textarea::placeholder{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #0F0201;
+    opacity: 0.32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: start;
+}
+.talents .content-wrapper-talents .left form input::placeholder {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #0F0201;
+    opacity: 0.32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.talents .content-wrapper-talents .left .sendBtn {
+    cursor: pointer;
+    position: relative;
+    padding: 16px 64px;
+    border: 1px solid #FFFBFA;
+}
+.talents .content-wrapper-talents .left .sendBtn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0 ;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #FFFBFA;
+    border-right: 1px solid #FFFBFA;
+    filter: drop-shadow(4px 4px 0px #FFFBFA);
+    z-index: -1;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
 footer .content-wrapper7 {
