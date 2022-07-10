@@ -97,9 +97,6 @@
     .section1 .float-right{
         display: none;
     }
-    .section1 .content-wrapper1 {
-        margin-top: -180px;
-    }
 }
 @media (max-width: 550px){
     .section2 .content-wrapper2 .mobile-character {
