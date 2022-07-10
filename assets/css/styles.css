@@ -29,7 +29,8 @@ body{
     max-width: 1920px;
 }
 .container{
-    padding:120px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 .hidden{
     display: none;
@@ -60,6 +61,9 @@ body{
 }
 .gap24{
     gap: 24px;
+}
+.gap21{
+    gap: 21px;
 }
 .gap16{
     gap: 16px;
@@ -194,10 +198,27 @@ header nav ul{
 .section2 .content-wrapper2{
     align-items: center;
 }
-.section2 .content-wrapper2 .first-descriptionDiv p{
+.section2 .content-wrapper2 .game-character-parent .first-descriptionDiv p{
     width: 998px;
     margin-top: 24px;
     opacity: 0.48;
+}
+/* mobile version styles */
+.section2 .content-wrapper2 .mobile-character{
+    display: none;
+}
+.section2 .content-wrapper2 .mobile-character .flex img {
+    height: 270px;
+    width: auto;
+}
+.section2 .content-wrapper2 .mobile-character p{
+    width: 327px;
+    font-size: 14px;
+}
+.section2 .content-wrapper2 .mobile-character .flex .character-heading h2,
+.section2 .content-wrapper2 .mobile-character .flex .character-heading h5{
+    width: 194px;
+    font-size: 16px;
 }
 /*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */
 .section3 .content-wrapper3 {

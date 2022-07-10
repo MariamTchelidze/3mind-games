@@ -3,6 +3,17 @@
         right: 0;
     }
 }
+@media (max-width: 1515px){
+    .section2 .content-wrapper2 .game-character-parent {
+        gap: 48px;
+    }
+    .section2 .content-wrapper2 .game-character-parent .first-descriptionDiv h5{
+        width: 442px;
+    }
+    .section2 .content-wrapper2 .game-character-parent .first-descriptionDiv p{
+         width: 420px;
+    }
+}
 @media (max-width: 1472px){
     .section1 .float-right .line,
     .section1 .float-right .line2{
@@ -15,10 +26,46 @@
         right: 40%;
     }
 }
+@media(max-width: 935px){
+    .section2 .content-wrapper2 .game-character-parent .first-descriptionDiv h5{
+        font-size: 22px;
+    }
+    .section2 .content-wrapper2 .game-character-parent .first-descriptionDiv h2{
+        font-size: 32px;
+    }
+    .section2 .content-wrapper2 .game-character-parent .first-descriptionDiv p{
+        font-size: 18px;
+    }
+    .section2 .content-wrapper2 .game-character-parent .game-character {
+        height: 400px;
+        width: auto;
+    }
+}
 @media(max-width: 865px){
     header nav{
         gap: 80px;
     }
+}
+@media(max-width: 800px){
+    .section2 .content-wrapper2 .game-character-parent{
+        display: none;
+    }
+    .section2 .content-wrapper2 .mobile-character{
+        display: block;
+    }
+    .section2 .content-wrapper2 .mobile-character .flex img {
+        height: 370px;
+        width: auto;
+    }
+    .section2 .content-wrapper2 .mobile-character p{
+        width: 430px;
+        font-size: 16px;
+    }
+    .section2 .content-wrapper2 .mobile-character .flex .character-heading h2,
+    .section2 .content-wrapper2 .mobile-character .flex .character-heading h5{
+        width: 250px;
+        font-size: 18px;
+}
 }
 @media( max-width: 700px){
     header nav .burgerbar {
@@ -52,6 +99,26 @@
     }
     .section1 .content-wrapper1 {
         margin-top: -180px;
+    }
+}
+@media (max-width: 550px){
+    .section2 .content-wrapper2 .mobile-character {
+        /* padding-right: 24px;
+        padding-left: 24px; */
+        padding: 24px;
+    }
+    .section2 .content-wrapper2 .mobile-character .flex img {
+        height: 230px;
+        width: auto;
+    }
+    .section2 .content-wrapper2 .mobile-character p{
+        width: 320px;
+        font-size: 14px;
+    }
+    .section2 .content-wrapper2 .mobile-character .flex .character-heading h2,
+    .section2 .content-wrapper2 .mobile-character .flex .character-heading h5{
+        width: 194px;
+        font-size: 16px;
     }
 }
 @media (max-width: 425px){
