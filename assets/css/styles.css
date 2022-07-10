@@ -594,10 +594,6 @@ footer .content-wrapper7 .top-footer .footer-line{
     background: #FFFBFA;
     opacity: 0.08;
 }
-footer .content-wrapper7 .top-footer .footer-icons {
-    align-items: 32px;
-    gap: 32px;
-}
 footer .content-wrapper7 .lower-footer{
     gap: 48px;
     align-items: center;

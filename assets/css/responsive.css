@@ -3,6 +3,14 @@
         right: 0;
     }
 }
+@media (max-width: 1753px){
+    footer .content-wrapper7 .top-footer{
+        gap: 64px;
+    }
+    footer .content-wrapper7 .top-footer .footer-line{
+        width: 800px;
+    }
+}
 @media (max-width: 1515px){
     .section2 .content-wrapper2 .game-character-parent {
         gap: 48px;
@@ -24,6 +32,46 @@
         top: -200px;
         left: 50%;
         right: 40%;
+    }
+}
+@media(max-width: 1385px){
+    footer .content-wrapper7 .top-footer{
+        gap: 32px;
+    }
+    footer .content-wrapper7 .top-footer .footer-line{
+        width: 700px;
+    }
+    footer .content-wrapper7 .top-footer .footer-icons{
+        gap: 24px;
+    }
+    footer .content-wrapper7 .top-footer h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1170px){
+    footer .content-wrapper7 .top-footer{
+        gap: 32px;
+    }
+    footer .content-wrapper7 .top-footer .footer-line{
+        width: 600px;
+    }
+    footer .content-wrapper7 .top-footer .footer-icons{
+        gap: 20px;
+    }
+    footer .content-wrapper7 .top-footer .footer-icons img{
+        height: 24px;
+        width: auto;
+    }
+    footer .content-wrapper7 .top-footer h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1030px){
+    footer .content-wrapper7 .top-footer{
+        gap: 24px;
+    }
+    footer .content-wrapper7 .top-footer .footer-line{
+        width: 300px;
     }
 }
 @media(max-width: 935px){
@@ -67,6 +115,27 @@
         font-size: 18px;
 }
 }
+@media (max-width: 731px){
+    footer .content-wrapper7 .top-footer{
+        gap: 16px;
+    }
+    footer .content-wrapper7 .top-footer .footer-line{
+        width: 250px;
+    }
+    footer .content-wrapper7 .top-footer{
+        max-width: 650px;
+    }
+    footer .content-wrapper7 .top-footer .footer-icons{
+        gap: 16px;
+    }
+    footer .content-wrapper7 .top-footer .footer-icons img{
+        height: 20px;
+        width: auto;
+    }
+    footer .content-wrapper7 .top-footer h3 {
+        font-size: 14px;
+    }
+}
 @media( max-width: 700px){
     header nav .burgerbar {
         display: block;
@@ -98,6 +167,11 @@
         display: none;
     }
 }
+@media(max-width: 555px){
+    footer .content-wrapper7 .top-footer{
+        max-width: 550px;
+    }
+}
 @media (max-width: 550px){
     .section2 .content-wrapper2 .mobile-character {
         /* padding-right: 24px;
@@ -116,6 +190,11 @@
     .section2 .content-wrapper2 .mobile-character .flex .character-heading h5{
         width: 194px;
         font-size: 16px;
+    }
+}
+@media(max-width: 455px){
+    footer .content-wrapper7 .top-footer{
+        max-width: 450px;
     }
 }
 @media (max-width: 425px){
