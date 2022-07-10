@@ -17,6 +17,9 @@ body{
     background: #080707;
     margin: 0 auto;
     background-image: url(../images/bg-cells.svg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
 }
 /*  --------------------------- GENERAL STYLES: CSS CODE WRITTEN HERE --------------------------- */
 .keeptogether{
@@ -26,7 +29,7 @@ body{
     max-width: 1920px;
 }
 .container{
-    padding: 200px 120px;
+    padding:120px;
 }
 .hidden{
     display: none;
@@ -159,9 +162,6 @@ header nav ul{
 }
 .section1 .content-wrapper1 {
     padding-bottom: 120px;
-}
-.heading {
-    gap: 134px;
 }
 .heading .logo-img{
     margin-top: 169px;
