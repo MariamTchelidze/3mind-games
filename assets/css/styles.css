@@ -19,6 +19,9 @@ body{
     background-image: url(../images/bg-cells.svg);
 }
 /*  --------------------------- GENERAL STYLES: CSS CODE WRITTEN HERE --------------------------- */
+.keeptogether{
+    white-space: nowrap;
+}
 .outer-container{
     max-width: 1920px;
 }
@@ -105,10 +108,10 @@ body{
 }
 .section1 .float-right {
     position: absolute;
-    align-items: center;
+    /* align-items: center; */
     gap: 32px;
     height: 947px;
-    right: 120px;
+    right: 100px;
     top: 84px;
 }
 /* fixed to right div */
