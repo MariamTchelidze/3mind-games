@@ -28,6 +28,10 @@ body{
 }
 .outer-container{
     max-width: 1776px;
+    margin: auto;
+}
+.margin-auto{
+    margin: auto;
 }
 .container{
     margin-left: 48px;
@@ -160,10 +164,12 @@ body{
 }
 header{
     padding: 66px;
+    width: 100%;
 }
 header nav {
     width: 100%;
-    gap: 200px;
+    justify-content: space-between;
+    /* gap: 200px; */
 }
 header nav ul{
     gap: 64px;
@@ -292,9 +298,6 @@ header nav ul{
 .section3-mobile-div{
     display: none;
 }
-.section3-mobile-div p{
-    width: 672px;
-}
 .section3-mobile-div .mainBtn2{
     cursor: pointer;
     position: relative;
@@ -311,6 +314,7 @@ header nav ul{
 /* game grid building grid are */
 .game-grid {
     display: grid;
+    width: 100%;
     height: 723px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -603,15 +607,32 @@ header nav ul{
     z-index: -1;
 }
 /*  --------------------------- FOOTER: CSS CODE WRITTEN HERE --------------------------- */
+footer{
+    width: 100%;
+}
+footer .container {
+    width: 100%;
+}
 footer .content-wrapper5 {
+    margin-top: 120px;
+    width: 100%;
     gap: 64px;
 }
 footer .content-wrapper5 .top-footer{
     align-items: center;
     gap: 80px;
 }
+footer .content-wrapper5 .top-footer h3 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #FFFBFA;
+}
 footer .content-wrapper5 .top-footer .footer-line{
-    width: 1131px;
+    max-width: 1131px;
     height: 2px;
     background: #FFFBFA;
     opacity: 0.08;

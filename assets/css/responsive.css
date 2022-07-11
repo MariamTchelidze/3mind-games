@@ -1,3 +1,4 @@
+
 @media (max-width: 1760px){
     .section1 .float-right {
         right: 0;
@@ -11,22 +12,7 @@
         width: 800px;
     }
 }
-@media (max-width: 1680px){
-    .section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div:nth-child(1){
-    width: 600px;
-}
-.section3 .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div:nth-child(2){
-    width: 600px;
-}
-    .section3-GameLogo{
-        width: 550px;
-    }
-    .content-wrapper3{
-        justify-content: center;
-        justify-items: center;
-        gap: 24px;
-    }
-}
+
 @media (max-width: 1515px){
     .section2 .content-wrapper2 .game-character-parent {
         gap: 48px;
@@ -50,7 +36,6 @@
         right: 40%;
     }
 }
-
 @media(max-width: 1385px){
     footer .content-wrapper7 .top-footer{
         gap: 32px;
@@ -63,35 +48,6 @@
     }
     footer .content-wrapper7 .top-footer h3 {
         font-size: 20px;
-    }
-}
-@media(max-width: 1200px){
-    .inner-content-wrapper3 {
-        flex-direction: column !important;
-        gap: 100px;
-    }
-    .inner-content-wrapper3 .right {
-        gap: 100px;
-    }
-    .desktop-hidden-icons{
-        display: none;
-    }
-    .section3-p-hide{
-        display: none;
-    }
-    .section5-icons-div{
-        display: none;
-    }
-    .inner-content-wrapper3 .left{
-        flex-direction: column-reverse;
-    }
-    .inner-content-wrapper3 .left .mainBtn2{
-        display: none;
-    }
-    .section3-mobile-div{
-        display: block;
-        gap: 48px;
-        align-items: center;
     }
 }
 @media (max-width: 1170px){
@@ -138,13 +94,6 @@
         width: auto;
     }
 }
-@media(max-width: 886px){
-    .section3 .outer-container .content-wrapper3 h2{
-        font-size: 32px;
-        gap: 48px;
-        justify-content: center;
-    }
-}
 @media(max-width: 865px){
     header nav{
         gap: 80px;
@@ -170,6 +119,12 @@
         width: 250px;
         font-size: 18px;
     }
+    footer .top-footer{
+        justify-content: space-between;
+    }
+    .footer-line{
+        width: 69px;
+    }
 }
 @media (max-width: 731px){
     footer .content-wrapper7 .top-footer{
@@ -194,6 +149,7 @@
 }
 @media( max-width: 700px){
     header nav .burgerbar {
+        cursor: pointer;
         display: block;
     } 
     header .header-nav .header-ul .header-li{
@@ -203,10 +159,10 @@
         display: flex;
         justify-content: space-between;
     }
-    header .header-nav {
+    /* header .header-nav {
         width: 100%;
         align-items: center;
-    }
+    } */
 }
 @media (max-width: 680px){
     .section1 .content-wrapper1 .heading h1{
@@ -222,10 +178,6 @@
     .section1 .float-right{
         display: none;
     }
-    .section3 .outer-container .content-wrapper3 .inner-content-wrapper3 .left .paragraph-div .section3-p{
-        width: 327px;
-        font-size: 14px;
-    }
 }
 @media(max-width: 555px){
     footer .content-wrapper7 .top-footer{
@@ -234,8 +186,6 @@
 }
 @media (max-width: 550px){
     .section2 .content-wrapper2 .mobile-character {
-        /* padding-right: 24px;
-        padding-left: 24px; */
         padding: 24px;
     }
     .section2 .content-wrapper2 .mobile-character .flex img {
@@ -275,9 +225,5 @@
     .section1 .content-wrapper1 .lower-div h3{
         font-size: 16px;
     }
-@media(max-width: 375px){
-    .section3 .outer-container .content-wrapper3 .inner-content-wrapper3 h2{
-        text-align: center;
-        gap: 20px;
-    }
 }
+/* section3 */
