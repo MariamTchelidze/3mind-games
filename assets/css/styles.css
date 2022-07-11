@@ -27,11 +27,11 @@ body{
     white-space: nowrap;
 }
 .outer-container{
-    max-width: 1920px;
+    max-width: 1776px;
 }
 .container{
-    padding-left: 64px;
-    padding-right: 64px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 .hidden{
     display: none;
@@ -111,6 +111,7 @@ body{
 
 /*  --------------------------- SECTION 1 + HEADER: CSS CODE WRITTEN HERE --------------------------- */
 .section1{
+    width: 100%;
     align-items: center;
     background-image: url(../images/1-sec-BGimg.jpg);
     background-repeat: no-repeat;
@@ -157,7 +158,6 @@ body{
     background: rgba(255, 251, 250, 0.16);
     content: '';
 }
-
 header{
     padding: 66px;
 }
@@ -193,7 +193,6 @@ header nav ul{
 .section1 .heading a .chevronDown{
     height: 32px;
 }
-
 /*  --------------------------- SECTION 2: CSS CODE WRITTEN HERE --------------------------- */
 .section2{
     padding: 64px;
@@ -225,6 +224,9 @@ header nav ul{
     font-size: 16px;
 }
 /*  --------------------------- SECTION 3: CSS CODE WRITTEN HERE --------------------------- */
+.section3{
+    padding: 48px;
+}
 .section3 .content-wrapper3 {
     gap: 196px;
 }
@@ -271,7 +273,7 @@ header nav ul{
     left: 35%;
     top: 20%;
 }
-.section3 .content-wrapper3 .inner-content-wrapper3 .left  .section5-icons-div {
+.section3 .content-wrapper3 .inner-content-wrapper3 .left  .section3-icons-div {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
@@ -286,6 +288,7 @@ header nav ul{
 {
     opacity: 1;
 }
+/* section3 mobile div version */
 .section3-mobile-div{
     display: none;
 }
@@ -301,10 +304,7 @@ header nav ul{
     align-items: center;
     gap: 16px;
 }
-.section3 .content-wrapper3 .inner-content-wrapper3 .right{
-    position: relative;
-}
-.section3 .content-wrapper3 .inner-content-wrapper3 .right .play-button2{
+.section3 .content-wrapper3 .inner-content-wrapper3 .right .game-grid .play-button2{
     left: 40%;
     top: 40%;
 }
@@ -340,11 +340,15 @@ header nav ul{
     grid-row: 2/2;
   }
   .game-img{
+    width: 100%;
+    height: auto;
     cursor: pointer;
     transition: 0.5s;
     border: 2px solid #080707;
   }
-  .main-img-div{
+  .main-img{
+    width: 100%;
+    height: auto;
     cursor: pointer;
     transition: 0.5s;
     border: 2px solid #080707;
