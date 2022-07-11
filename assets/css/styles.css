@@ -286,6 +286,21 @@ header nav ul{
 {
     opacity: 1;
 }
+.section3-mobile-div{
+    display: none;
+}
+.section3-mobile-div p{
+    width: 672px;
+}
+.section3-mobile-div .mainBtn2{
+    cursor: pointer;
+    position: relative;
+    padding: 24px 64px;
+    border: 1px solid #FFFBFA;
+    width: 212px;
+    align-items: center;
+    gap: 16px;
+}
 .section3 .content-wrapper3 .inner-content-wrapper3 .right{
     position: relative;
 }

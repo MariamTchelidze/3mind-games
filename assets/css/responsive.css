@@ -75,8 +75,23 @@
     }
 }
 @media(max-width: 1200px){
-    .content-wrapper3{
-        flex-direction: column;
+    .inner-content-wrapper3{
+        flex-direction: column !important;
+    }
+    .section3-p-hide{
+        display: none;
+    }
+    .section5-icons-div{
+        display: none;
+    }
+    .inner-content-wrapper3 .left{
+        flex-direction: column-reverse;
+    }
+    .inner-content-wrapper3 .left .mainBtn2{
+        display: none;
+    }
+    .section3-mobile-div{
+        display: block;
     }
 }
 @media (max-width: 1170px){
